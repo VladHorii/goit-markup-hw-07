@@ -60,7 +60,8 @@
   color: $accent-color;
 }
 .link {
-  @include centeredFlex();
+  display: flex;
+  align-items: center;
   transition: color 250ms $animation;
   &:hover,
   &:focus {

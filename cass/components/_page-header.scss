@@ -11,22 +11,10 @@
 .page-nav {
   @include centeredFlex();
 }
-/* Логотип */
+
 .page-header .logo {
   margin-right: 93px;
 }
-.logo__text {
-  color: $accent-color;
-
-  font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
-}
-.logo__subtext {
-  color: $black-color;
-}
-
 /* Главная навигация */
 .nav {
   display: flex;

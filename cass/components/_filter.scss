@@ -18,8 +18,8 @@
 
   cursor: pointer;
   box-shadow: none;
-  transition: color 250ms $animation, background 250ms $animation,
-    box-shadow 250ms $animation;
+  transition: color $anim-time $animation, background $anim-time $animation,
+    box-shadow $anim-time $animation;
 
   &--active,
   &:hover,

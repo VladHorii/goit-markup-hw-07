@@ -28,7 +28,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  transition: background-color 250ms $animation, box-shadow 250ms $animation;
+  transition: background-color $anim-time $animation, box-shadow $anim-time $animation;
 }
 .main-block__button {
   padding: 10px 32px;

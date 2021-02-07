@@ -8,7 +8,7 @@
   opacity: 1;
   transform: translateY(0);
 
-  transition: opacity 250ms $animation, transform 250ms $animation;
+  transition: opacity $anim-time $animation, transform $anim-time $animation;
 }
 
 .modal__backdrop--hidden {
@@ -37,7 +37,7 @@
 
   transform: translate(-50%, -50%) scale(1);
 
-  transition: transform 250ms $animation 50ms;
+  transition: transform $anim-time $animation 50ms;
 }
 .modal__btn {
   @include centeredFlex();
@@ -53,7 +53,7 @@
   border-radius: 50%;
   cursor: pointer;
 
-  transition: color 250ms $animation;
+  transition: color $anim-time $animation;
   &:hover,
   &:focus {
     color: $accent-color;

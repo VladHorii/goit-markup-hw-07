@@ -15,7 +15,7 @@
   border: 1px solid $icon-color;
   border-radius: 4px;
   color: $icon-color;
-  transition: color 250ms $animation, border 250ms $animation;
+  transition: color $anim-time $animation, border $anim-time $animation;
   &:hover,
   &:focus {
     border: 1px solid $accent-color;

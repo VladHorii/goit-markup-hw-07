@@ -50,7 +50,7 @@
 .link {
   display: flex;
   align-items: center;
-  transition: color 250ms $animation;
+  transition: color $anim-time $animation;
   &:hover,
   &:focus {
     color: $accent-color;

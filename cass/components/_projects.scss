@@ -23,7 +23,7 @@
   cursor: pointer;
   box-shadow: none;
 
-  transition: box-shadow 250ms $animation;
+  transition: box-shadow $anim-time $animation;
 }
 
 .projects__body:hover .projects__text,
@@ -59,7 +59,7 @@
   background-color: rgba(33, 150, 243, 0.9);
 
   transform: translateY(100%);
-  transition: transform 250ms $animation;
+  transition: transform $anim-time $animation;
 }
 
 .projects__content {

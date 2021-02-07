@@ -2,13 +2,14 @@
 @import './untils/mixins';
 @import './base/normalize';
 @import './base/visually-hidden';
+@import './base/base';
+@import './base/container';
 
 @import './components/page-header';
 @import './components/page-footer';
 
 @import './components/client';
 @import './components/contact';
-@import './base/container';
 @import './components/feature-block';
 @import './components/icon';
 @import './components/join';
@@ -22,14 +23,3 @@
 
 @import './components/modal';
 @import './components/form';
-
-body {
-  color: $main-text-color;
-  background-color: $white-color;
-
-  font-weight: 500;
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  letter-spacing: 0.03em;
-}
